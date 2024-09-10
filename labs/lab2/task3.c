@@ -4,14 +4,17 @@
 
 int main()
 {
-    float numbers[5];
+    printf("Введите размер массива ");
+    int a;
+    scanf("%d",&a);
+    a = a-1;
+    float numbers[a]; 
     srand(time(NULL));   
-    for (int i = 0; i <= 5; i++) {
+    for (int i = 0; i <= a; i++) {
     numbers[i]=(rand()%100)/(100*1.0);
     
 }
-    for (int i = 5; i>=0; i--){
-        char s[100];
+    for (int i = 0; i<=a; i++){
         printf("%lf \n", numbers[i]);
 
         
