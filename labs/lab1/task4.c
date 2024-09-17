@@ -1,11 +1,11 @@
 #include <stdio.h>
 int main()
 {
-    int a; int b; int c; float x;
-    scanf("%d",&a);
-    scanf("%d",&b);
-    scanf("%d",&c);
-    printf("x = %d",(c-b)/a);
+    float a; float b; float c; float x;
+    scanf("%f",&a);
+    scanf("%f",&b);
+    scanf("%f",&c);
+    printf("x = %lf",(c-b)/a);
 
     return 0;
 }
