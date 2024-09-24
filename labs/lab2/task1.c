@@ -4,14 +4,14 @@
 
 int main()
 {
-    float numbers[5];
+    int numbers[5];
     srand(time(NULL));   
     for (int i = 0; i <= 5; i++) {
-    numbers[i]=rand();
+        numbers[i]=rand();
     
 }
     for (int i = 0; i <= 5; i++) {
-    printf("%f \n",numbers[i]);
+    printf("%d \n",numbers[i]);
     
 }
 return 0;
