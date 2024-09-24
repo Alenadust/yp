@@ -6,7 +6,7 @@ int main()
 {
     FILE *file;
     file = fopen("file.txt", "w");
-    float numbers[5];
+    int numbers[5];
     srand(time(NULL));   
     for (int i = 0; i <= 5; i++) {
     numbers[i]=rand();
@@ -14,7 +14,7 @@ int main()
 }
     for (int i = 5; i>=0; i--){
         char s[100];
-        sprintf(s, "%f \n", numbers[i]);
+        sprintf(s, "%d \n", numbers[i]);
         fputs(s, file);
         
     }
