@@ -2,12 +2,10 @@
 #include <stdlib.h>
 #include <time.h>
 
-int main()
+int main(int argc, char *argv[])
 {
-    printf("Введите размер массива ");
     int a;
-    scanf("%d",&a);
-    a = a-1;
+    a = atoi(argv[1])-1;
     float numbers[a]; 
     srand(time(NULL));   
     for (int i = 0; i <= a; i++) {
