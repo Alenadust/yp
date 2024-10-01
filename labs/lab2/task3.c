@@ -12,7 +12,7 @@ int main(int argc, char *argv[])
     numbers[i]=(rand()%100)/(100*1.0);
     
 }
-    for (int i = 0; i<=a; i++){
+    for (int i = 0; i<a; i++){
         printf("%lf \n", numbers[i]);
 
         
