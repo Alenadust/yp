@@ -71,7 +71,7 @@ void InfixToPostfix(char infix[], char postfix[]) {
         i = 0;
         j = 0;
         symbol = infix[i];
-        while (symbol != '\0') {
+        while (symbol !='\0') {
                 if (symbol == '(') {
                         push(stk, symbol);
 
